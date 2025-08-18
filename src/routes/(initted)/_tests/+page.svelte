@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NumericField from '$lib/domain/Core/Components/NumericField.svelte';
+	import NumericField from '$lib/domain/core/Components/NumericField.svelte';
 	import SetTemplateRow from '$lib/domain/TrainingSessionTemplates/Components/SetTemplateRow.svelte';
 	import type { SetTemplate, Exercise } from '$lib/domain/TrainingSessionTemplates/types';
 

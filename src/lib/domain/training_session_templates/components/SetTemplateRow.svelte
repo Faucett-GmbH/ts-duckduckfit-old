@@ -8,7 +8,7 @@
 </script>
 
 <script lang="ts">
-	import NumericField from '$lib/domain/Core/Components/NumericField.svelte';
+	import NumericField from '$lib/domain/core/Components/NumericField.svelte';
 	import { Settings2 } from 'lucide-svelte';
 
 	import type { SetType, SetTemplate, Exercise } from '../types';

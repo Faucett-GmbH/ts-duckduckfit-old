@@ -68,6 +68,9 @@ importers:
       ua-parser-js:
         specifier: ^2.0.4
         version: 2.0.4
+      ulid:
+        specifier: ^3.0.1
+        version: 3.0.1
       uuid:
         specifier: ^11.1.0
         version: 11.1.0
@@ -2180,6 +2183,10 @@ packages:
     resolution: {integrity: sha512-XiBOnM/UpUq21ZZ91q2AVDOnGROE6UQd37WrO9WBgw4u2eGvUCNOheMmZ3EfEUj7DLHr8tre+Um/436Of/Vwzg==}
     hasBin: true
 
+  ulid@3.0.1:
+    resolution: {integrity: sha512-dPJyqPzx8preQhqq24bBG1YNkvigm87K8kVEHCD+ruZg24t6IFEFv00xMWfxcC4djmFtiTLdFuADn4+DOz6R7Q==}
+    hasBin: true
+
   undici-types@7.10.0:
     resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
 
@@ -4236,6 +4243,8 @@ snapshots:
       ua-is-frozen: 0.1.2
     transitivePeerDependencies:
       - encoding
+
+  ulid@3.0.1: {}
 
   undici-types@7.10.0: {}
 
