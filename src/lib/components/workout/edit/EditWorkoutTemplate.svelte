@@ -42,7 +42,7 @@
 	} from '$lib/state/workoutTemplates.svelte';
 	import type { Exercise } from '$lib/state/exerciseTypes';
 	import { getLocale } from '$lib/state/settings.svelte';
-	import { training_session_templates_path } from '$lib/domain/TrainingSessionTemplates/urlPaths';
+	import { training_session_templates_path } from '$lib/domain/training_session_templates/routes';
 
 	let {
 		workoutTemplateId,

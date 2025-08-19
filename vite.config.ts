@@ -5,6 +5,8 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { networkInterfaces } from 'node:os';
 import { readFileSync } from 'node:fs';
+import wasm from 'vite-plugin-wasm'
+import topLevelAwait from 'vite-plugin-top-level-await'
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
@@ -47,6 +49,8 @@ export default defineConfig(async ({ mode }) => {
 		},
 		envPrefix: ['VITE_', 'TAURI_'],
 		plugins: [
+			wasm(),
+			topLevelAwait(),
 			tailwindcss(),
 			sveltekit(),
 			devtoolsJson(),

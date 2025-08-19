@@ -22,7 +22,7 @@
 	import type { AutomergeDocumentId } from '$lib/repo';
 	import type { Exercise } from '$lib/state/exerciseTypes';
 	import { findTranslation } from '$lib/util';
-	import { edit_training_session_templates_path } from '$lib/domain/TrainingSessionTemplates/urlPaths';
+	import { edit_training_session_templates_path } from '$lib/domain/training_session_templates/routes';
 
 	let {
 		workoutTemplateId,

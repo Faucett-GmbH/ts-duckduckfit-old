@@ -10,7 +10,7 @@
 	import { navigating, page } from '$app/state';
 	import Logo from './Logo.svelte';
 	import logoHorizontalWEBP from '$lib/assets/logo-horizontal.webp';
-	import { training_session_templates_path } from '$lib/domain/TrainingSessionTemplates/urlPaths';
+	import { training_session_templates_path } from '$lib/domain/training_session_templates/routes';
 
 	let open = $state(false);
 	function onGoto() {

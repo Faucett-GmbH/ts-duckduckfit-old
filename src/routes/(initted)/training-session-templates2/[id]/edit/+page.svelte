@@ -11,7 +11,7 @@
 	import type { PageData } from './$types';
 	import { m } from '$lib/paraglide/messages';
 	import { findTranslation } from '$lib/util';
-	import { training_session_templates_path } from '$lib/domain/TrainingSessionTemplates/urlPaths';
+	import { training_session_templates_path } from '$lib/domain/training_session_templates/routes';
 
 	let { data }: Props = $props();
 

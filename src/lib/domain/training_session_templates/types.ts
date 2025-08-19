@@ -9,6 +9,7 @@ export type SetType = "warm_up" | "working_set"
 export type ExerciseBlockType = "standard" | "superset" | "circuit"
 
 export type TrainingSessionTemplate = {
+  id: string
   name: string
   description?: string
   blockTemplates: ExerciseBlockTemplate[]
@@ -17,6 +18,7 @@ export type TrainingSessionTemplate = {
 }
 
 export type ExerciseBlockTemplate = {
+  id: string
   blockType: ExerciseBlockType
   setTemplates: SetTemplate[]
   exercises: ExerciseRef[]

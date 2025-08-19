@@ -76,6 +76,8 @@
 		"ulid": "^3.0.1",
 		"uuid": "^11.1.0",
 		"vest": "^5.4.6",
+		"vite-plugin-top-level-await": "^1.6.0",
+		"vite-plugin-wasm": "^3.5.0",
 		"zod": "^4.0.17"
 	},
 	"pnpm": {
