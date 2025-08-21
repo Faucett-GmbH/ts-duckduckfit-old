@@ -1,0 +1,1 @@
+import{r as e}from"../chunks/Dlby3e6x.js";import{b as o}from"../chunks/BePU0xrI.js";const r=async t=>{e(302,`${o}/settings/profile`)},n=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{n as universal};
