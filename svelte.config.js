@@ -17,7 +17,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.USE_BASE_PATH ? '/ts-duckduckfit' : ''
+			base: process.env.USE_BASE_PATH ? '/ts-duckduckfit-old' : ''
 		}
 	}
 };

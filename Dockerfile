@@ -15,7 +15,7 @@ COPY . /app
 RUN pnpm run build
 
 FROM --platform=linux/amd64 nginx:1.29-alpine3.22-slim
-LABEL org.opencontainers.image.source https://github.com/Faucett-GmbH/ts-duckduckfit
+LABEL org.opencontainers.image.source https://github.com/Faucett-GmbH/ts-duckduckfit-old
 
 COPY default.conf.template /etc/nginx/templates/default.conf.template
 RUN rm -rf /usr/share/nginx/html
