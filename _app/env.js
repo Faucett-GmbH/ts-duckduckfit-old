@@ -1,1 +1,1 @@
-export const env={"PUBLIC_P2P_WS_URL":"wss://p2p.aicacia.com","PUBLIC_P2P_API_URL":"https://p2p.aicacia.com","PUBLIC_EXDB_URL":"https://exdb.faucett-gmbh.com","PUBLIC_URL":"https://faucett-gmbh.github.io/ts-duckduckfit"}
+export const env={"PUBLIC_P2P_WS_URL":"wss://p2p.aicacia.com","PUBLIC_P2P_API_URL":"https://p2p.aicacia.com","PUBLIC_EXDB_URL":"https://exdb.faucett-gmbh.com","PUBLIC_URL":"https://faucett-gmbh.github.io/ts-duckduckfit-old"}

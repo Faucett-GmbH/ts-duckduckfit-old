@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://faucett-gmbh.github.io/ts-duckduckfit/sitemap.xml
+Sitemap: https://faucett-gmbh.github.io/ts-duckduckfit-old/sitemap.xml
